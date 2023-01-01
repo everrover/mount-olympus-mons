@@ -57,6 +57,7 @@ nslookup -type=A everrover.com 1.1.1.1
 |CNAME|Canonical Name|
 |MX|Mail exchange servers|
 |SOA|Start of Authority|
+|NS|Nameserver|
 |TXT|TXT records|
 
 `server` is the DNS server to be queried. `1.1.1.1` and `1.0.0.1` for **Cloudflare**. `8.8.8.8` and `8.8.4.4` for **Google**. Others to be looked up on the net.
