@@ -2,8 +2,9 @@
 
 ### Section 1 in notes
 
-### Layers and aggregation shown in notes
-
+### Networking layers and aggregation
+![](../assets/network-layer-notes-2.jpeg)
+![](../assets/network-layer-notes-1.jpeg)
 ## Subnetworks
 
 **Teminology**
@@ -130,7 +131,7 @@ Similar scan tool: [`masscan`](https://github.com/robertdavidgraham/masscan)
   - Reverse DNS pre-built, but is limited
 - Why without `sudo` access, we can't do the partial TCP/UDP scans
 - How is a message sent over the network when ARP resolution messages die out of the subnet?
-![ARP working out of subnet for TCP req](image)
+![ARP working out of subnet for TCP req](../assets/nmap-basics-ques-ans-1.jpeg)
 
 ### Tools required
 
